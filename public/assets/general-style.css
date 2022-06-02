@@ -1,0 +1,227 @@
+::placeholder {
+  color: red;
+  opacity: 1; /* Firefox */
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: red;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+ color: red;
+}
+
+.btn-outline-success {
+  color: #fcbc12;
+  border-color: #fcbc12; }
+  .btn-outline-success:hover {
+    color: #f8f9fa;
+    background-color: #fcbc12;
+    border-color: #fcbc12; }
+
+     .btn-outline-success:not(:disabled):not(.disabled):active, .btn-outline-success:not(:disabled):not(.disabled).active,
+  .show > .btn-outline-success.dropdown-toggle {
+    color: #f8f9fa;
+    background-color: #fcbc12;
+    border-color: #fcbc12; 
+  }
+   .btn-outline-success:focus{
+    box-shadow: 0 0 0 .15rem rgba(221, 111, 46, 0.5);
+  }
+
+    .table-responsive{
+ 
+}
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 1px solid #000;
+}
+.table td, .table th{
+      padding: .75rem;
+    vertical-align: top;
+    border: 1px solid #000;
+}
+
+.table .thead-light th{
+  color: #8c95a0;
+background-color: rgba(49,61,81,.5);
+border-color: #000;
+font-size: 15px;
+border-bottom: 1px solid black;
+}
+
+.card {
+    border: 1px solid #fcbc1278;
+    margin-bottom: 24px;
+    -webkit-box-shadow: 0 .75rem 0 rgba(18,38,63,.03);
+    box-shadow: 0 .75rem 0 rgba(18,38,63,.03);
+    background-color: #253242;
+}
+
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+   font-size: 12px;
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #fcbc12;
+  margin: 0 4px;
+}
+
+.pagination a.active {
+  background-color: #fcbc12;
+  color: white;
+  border: 1px solid #fcbc12;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+
+
+
+
+
+
+/* --------- signup for customers */
+
+.cs-select {
+  height: 62px;
+  font-size: 16px;
+  background-color: #293749 !important;
+  text-align: center !important;
+}
+
+
+.cs-product-card img {
+  border-radius: 5px;
+  object-fit: contain;
+}
+
+
+
+.cs-font-size-13 {
+  font-size: 13px !important;
+}
+
+.cs-font-size-12 {
+    font-size: 12px !important;
+}
+
+.cs-font-size-11 {
+    font-size: 11px !important;
+}
+
+
+
+
+@media (min-width: 1px) and (max-width: 767px) {
+
+
+  .cs-font-size-sm-21 {
+    font-size: 21px !important;
+  }
+
+  .cs-font-size-sm-18 {
+      font-size: 18px !important;
+  }
+
+
+  .cs-font-size-sm-17 {
+    font-size: 17px !important;
+  }
+
+  .cs-font-size-sm-16 {
+    font-size: 16px !important;
+  }
+
+
+  .cs-font-size-sm-13 {
+    font-size: 13px !important;
+  }
+
+
+
+  .cs-select {
+    height: 49px;
+    margin-bottom: 13px !important;
+  }
+
+
+}
+
+
+
+
+@media (min-width: 768px) {
+    .cs-font-size-26 {
+        font-size: 26px !important;
+    }
+
+    .cs-font-size-19 {
+        font-size: 19px !important;
+    }
+
+}
+
+
+.flavor-summary-span {
+  margin-right: 8px;
+}
+
+.flavor-summary-span:after {
+    content: '|';
+    padding-left: 8px;
+}
+
+.flavor-summary-span:last-of-type:after {
+  content: '';
+}
+
+
+.text-semiblack-f {
+  color: #1e2835 !important;
+}
+
+
+
+
+/* ------------------------- back to supplier dashboard  */
+
+
+.bg-grey {
+  background-color: grey !important;
+}
+
+.products-flavors-row p {
+  font-weight: 600 !important;
+}
+
+.products-flavors-row .col-md-6:nth-of-type(even) {
+  /* border-bottom: 1px solid lightgrey !important; */
+  /* padding-top:10px; */
+}
+
+.products-flavors-row .col-md-6:nth-of-type(odd) {
+    /* border-bottom: 1px solid lightgrey !important; */
+    /* border-right: 1px solid lightgrey !important; */
+  /* padding-top:10px; */
+
+}
+
+
+.macros-tr span {
+  width: 100px;
+  padding: 5px 0px;
+  margin-bottom:3px;
+  font-size:12px;
+}
+
+
+
+
+
+
